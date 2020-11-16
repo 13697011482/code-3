@@ -1,0 +1,1 @@
+*{margin:0;padding:0}html{font-size:26.666667vw}body{font-size:.12rem}.clear:after,.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}#app>div:first-child{position:absolute;top:0;bottom:50px;left:0;right:0;overflow:auto}#app>div:first-child::-webkit-scrollbar{display:none}#app .single-page{bottom:0!important;z-index:9;background:#f5f5f5}

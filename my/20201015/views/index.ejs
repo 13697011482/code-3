@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <%- include('head') %>
+  hello world<br>
+  <h1>
+    <%= message %>
+  </h1>
+  <%- html %>
+  <% if(isShow){ %>
+        <h1>isShow is true</h1>
+  <% } %>
+
+  <% if(isShow){ %>
+    <ul>
+      <% data.forEach((v,i) => { %>
+        <li><%= v %></li>
+      <% }) %>
+    </ul>
+<% } %>
+</body>
+</html>
