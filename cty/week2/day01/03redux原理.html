@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="btn" onclick="store.dispatch({type : 'DECREMENT' , number : 1})">-</button>
+  <span id="count"></span>
+  <button class="btn" onclick="store.dispatch({type : 'INCREMENT' , number : 1})">+</button>
+  <script>
+    const createStore = (reducer) => {
+      let state = null
+      const getState = () => state
+      const listeners = []
+      const subscribe = (listener) => listeners.push(listener)
+      const dispatch = (action) => {
+        state = reducer(state , action)
+        listeners.forEach(listener => listener())
+      }
+      dispatch({})
+      return {
+        getState,
+        subscribe,
+        dispatch
+      }
+    }
+    const countState = {
+      count : 1
+    }
+    const renderCount = () => {
+      const countDom = document.querySelector('#count')
+      countDom.innerHTML = store.getState().count
+    }
+    const changeState = (state , action) => {
+      if(!state) return countState
+      switch(action.type){
+        case  'DECREMENT' : 
+        return {
+          ...state,
+          count : state.count - action.number
+        }
+        case 'INCREMENT' : 
+        return {
+          ...state,
+          count : state.count + action.number
+        }
+        default : 
+          return state
+      }
+    }
+
+    const store = createStore(changeState)
+    renderCount()
+    store.subscribe(renderCount)
+
+  </script>
+</body>
+</html>

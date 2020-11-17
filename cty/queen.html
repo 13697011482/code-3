@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const N = 8
+var map = []
+var count = 0
+
+// 判断与前面的皇后是否冲突
+var check = function(r) {
+    for (let i = 0; i < r; i++) {
+        if (
+            map[i] == map[r] ||
+            i + map[i] == r + map[r] ||
+            i - map[i] == r - map[r]
+        ) {
+            return false
+        }
+    }
+    return true
+}
+
+// 显示打印结果
+var display = function() {
+    let str = ''
+    for (let i = 0; i < N; i++) {
+        for (let j = 0; j < N; j++) {
+            if (map[i] == j) {
+                str += '1 '
+            } else {
+                str += '0 '
+            }
+        }
+        str += '\n'
+    }
+    console.log(str)
+}
+
+// 按行搜索
+var dfs = function(r) {
+    if (r == N) {
+        count++
+        display()
+    }
+    for (let c = 0; c < N; c++) {
+        map[r] = c
+        if (check(r)) {
+            dfs(r + 1)
+        }
+    }
+}
+
+var __main = function() {
+    dfs(0)
+    console.log('八皇后一共有：' + count + '种解法')
+}
+
+__main()
+  </script>
+</body>
+</html>

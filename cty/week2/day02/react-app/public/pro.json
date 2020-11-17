@@ -1,0 +1,230 @@
+{
+  "result": [
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7494654,
+      "positionName": "社区运营",
+      "city": "深圳",
+      "createTime": "今天 14:41",
+      "salary": "6k-10k",
+      "companyId": 187673,
+      "companyLogo": "i/image/M00/57/82/Ciqc1F9tUKaAV8qnAAAV3gnRuRk650.png",
+      "companyName": "十方融海集团",
+      "companyFullName": "深圳十方融海科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7494680,
+      "positionName": "社群运营",
+      "city": "深圳",
+      "createTime": "今天 14:41",
+      "salary": "6k-10k",
+      "companyId": 187673,
+      "companyLogo": "i/image/M00/57/82/Ciqc1F9tUKaAV8qnAAAV3gnRuRk650.png",
+      "companyName": "十方融海集团",
+      "companyFullName": "深圳十方融海科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7494299,
+      "positionName": "IOS技术开发",
+      "city": "杭州",
+      "createTime": "今天 14:38",
+      "salary": "15k-20k",
+      "companyId": 356089,
+      "companyLogo": "i/image3/M00/4A/22/CgpOIFrUP6qAOR_WAACrC-BCpc8687.JPG",
+      "companyName": "浙数文化",
+      "companyFullName": "浙报数字文化集团股份有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7492467,
+      "positionName": "区域销售总监",
+      "city": "青岛",
+      "createTime": "今天 14:36",
+      "salary": "15k-20k",
+      "companyId": 479059,
+      "companyLogo": "i/image2/M01/AF/16/CgotOVv3a9eAH2GIAAAYhGAZhCo791.jpg",
+      "companyName": "泛微",
+      "companyFullName": "上海泛微软件有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7495288,
+      "positionName": "网络客服",
+      "city": "长沙",
+      "createTime": "今天 14:31",
+      "salary": "3k-5k",
+      "companyId": 29950,
+      "companyLogo": "i/image2/M01/6D/82/CgotOV1BchaAKajAAADmczS1wLA439.png",
+      "companyName": "深圳华秋电子有限公司",
+      "companyFullName": "深圳华秋电子有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7497077,
+      "positionName": "风控负责人（偏重风控产品）",
+      "city": "深圳",
+      "createTime": "今天 14:27",
+      "salary": "30k-50k",
+      "companyId": 128065,
+      "companyLogo": "i/image/M00/3D/89/Cgp3O1dyQFiAS337AAAJ8SnzRcM883.png",
+      "companyName": "白骑士",
+      "companyFullName": "深圳白骑士科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7491164,
+      "positionName": "平台运营总监",
+      "city": "上海",
+      "createTime": "今天 14:27",
+      "salary": "20k-35k",
+      "companyId": 152100,
+      "companyLogo": "i/image2/M01/2F/21/CgotOVzZJOSAfUYjAABuR4RpKL0184.jpg",
+      "companyName": "飞榴科技",
+      "companyFullName": "飞榴（上海）信息科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7491282,
+      "positionName": "平台运营经理",
+      "city": "上海",
+      "createTime": "今天 14:27",
+      "salary": "20k-35k",
+      "companyId": 152100,
+      "companyLogo": "i/image2/M01/2F/21/CgotOVzZJOSAfUYjAABuR4RpKL0184.jpg",
+      "companyName": "飞榴科技",
+      "companyFullName": "飞榴（上海）信息科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7491392,
+      "positionName": "项目主管",
+      "city": "北京",
+      "createTime": "今天 14:26",
+      "salary": "10k-15k",
+      "companyId": 85681726,
+      "companyLogo": "i/image2/M01/AA/BD/CgoB5l3UtXiAEOw8AAWhISWvO-0239.jpg",
+      "companyName": "亿和博嘉教育",
+      "companyFullName": "北京亿和博嘉教育科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7490524,
+      "positionName": "运营助理",
+      "city": "深圳",
+      "createTime": "今天 14:24",
+      "salary": "5k-8k",
+      "companyId": 138048,
+      "companyLogo": "i/image3/M01/5D/F5/CgpOIF4J3xaAFU0tAAAVzVsYFhE472.png",
+      "companyName": "房极客",
+      "companyFullName": "深圳市前海房极客网络科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7495330,
+      "positionName": "短视频编剧",
+      "city": "深圳",
+      "createTime": "今天 14:24",
+      "salary": "15k-20k",
+      "companyId": 138048,
+      "companyLogo": "i/image3/M01/5D/F5/CgpOIF4J3xaAFU0tAAAVzVsYFhE472.png",
+      "companyName": "房极客",
+      "companyFullName": "深圳市前海房极客网络科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7493269,
+      "positionName": "java工程师",
+      "city": "广州",
+      "createTime": "今天 14:24",
+      "salary": "10k-20k",
+      "companyId": 127922,
+      "companyLogo": "i/image/M00/A5/5A/Cgp3O1ir6luAMlfFAAAbcMUCUXY237.png",
+      "companyName": "瑞云网络",
+      "companyFullName": "广州瑞云网络科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7488836,
+      "positionName": "用户增长高级专员/主管",
+      "city": "上海",
+      "createTime": "今天 14:22",
+      "salary": "12k-18k",
+      "companyId": 1335,
+      "companyLogo": "i/image/M00/02/F4/CgqKkVah_HiAFbtlAAANpMvrXDY289.png",
+      "companyName": "堆糖",
+      "companyFullName": "堆糖信息科技（上海）有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7495667,
+      "positionName": "平面设计师/主管",
+      "city": "上海",
+      "createTime": "今天 14:22",
+      "salary": "12k-18k",
+      "companyId": 1335,
+      "companyLogo": "i/image/M00/02/F4/CgqKkVah_HiAFbtlAAANpMvrXDY289.png",
+      "companyName": "堆糖",
+      "companyFullName": "堆糖信息科技（上海）有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 7493833,
+      "positionName": "qt开发工程师",
+      "city": "武汉",
+      "createTime": "今天 14:20",
+      "salary": "8k-13k",
+      "companyId": 261246,
+      "companyLogo": "i/image/M00/6F/51/CgpFT1m52FKAHeUCAABYkEqIizY670.jpg",
+      "companyName": "武汉金策略信息科技有限公司",
+      "companyFullName": "武汉金策略信息科技有限公司"
+    }
+  ]
+       
+}

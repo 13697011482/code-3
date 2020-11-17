@@ -1,0 +1,111 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<button class="btn" onclick="store.dispatch({type:'DECREMENT',number:1})">-</button>
+<span id="count"></span>
+<button class="btn" onclick="store.dispatch({type:'INCREMENT',number:1})">+</button>
+<script>
+  const createStore = (state , changeState) => {
+    const getState = () => state
+
+    const listeners = []
+    const subscribe = (listener) => listeners.push(listener)
+    const dispatch = (action) => {
+      changeState(state , action)
+      listeners.forEach(listener => {
+        listener()
+      })
+    }
+    return {
+      getState,
+      dispatch,
+      subscribe
+    }
+  }
+
+  const countState = {
+    count : 1
+  }
+  const changeState = (state , action) => {
+    switch (action.type){
+      case 'DECREMENT' : 
+      state.count -= action.number
+      break;
+      case 'INCREMENT' : 
+      state.count += action.number
+      break;
+      default :
+      break;
+    }
+  }
+  const store = createStore(countState , changeState)
+  const renderCount = () => {
+    const countDom = document.querySelector('#count')
+    countDom.innerHTML = store.getState().count
+  }
+  renderCount()
+  store.subscribe(renderCount)
+</script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="btn" onclick="store.dispatch({type:'DECREMENT',number:1})">-</button>
+  <span id="count"></span>
+  <button class="btn" onclick="store.dispatch({type:'INCREMENT',number:1})">+</button>
+  <script>
+    const createStore = (state , changeState) => {
+      const getState = () => state
+      const listeners = []
+      const subscribe = (listener) => {
+        listeners.push(listener)
+      }
+      const dispatch = (action) => {
+        changeState(state , action)
+        listeners.forEach(listener => listener())
+      }
+      return {
+        getState,
+        subscribe,
+        dispatch
+      }
+    }
+
+    const countState = {
+      count : 1
+    }
+    const changeState = (state , action) => {
+      switch (action.type) {
+        case 'DECREMENT' : 
+        state.count -= action.number
+        break;
+        case 'INCREMENT' : 
+        state.count += action.number
+        break;
+        default :
+        break;
+      }
+    }
+    const store = createStore(countState , changeState)
+
+    const renderCount = () => {
+      const countDom = document.querySelector('#count')
+      countDom.innerHTML = store.getState().count
+    }
+    renderCount()
+    store.subscribe(renderCount)
+  </script>
+</body>
+</html>
