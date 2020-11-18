@@ -27,9 +27,7 @@ class Index
     })
   }
   render() {
-    
     const { collapsed } = this.props
-    console.log('11', collapsed)
     return (
       <Layout>
         <Sider trigger={null} collapsible collapsed={collapsed}>
